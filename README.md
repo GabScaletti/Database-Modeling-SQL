@@ -1,5 +1,6 @@
 # Database-Modeling-SQL
 
+
 PT_BR
 Este repositório foi criado no intuito de armazenar todo o meu projeto de portfólio proposto pela faculdade de tecnologia UniFECAF. Documentarei desde o levantamento de requisitos até o desenvolvimento do banco de dados.
 
@@ -41,4 +42,14 @@ A: The following tables, followed by their attributes, are: students (identity, 
 A: Students belong to courses that contain subjects with activities and exercises, forming classes taught by the faculty team.  
 
 5. Is there any scalability that needs to be considered?  
-A: Yes, at the moment, professors do not teach subjects assigned to other faculty members. However, if there is a future need for multiple professors to teach the same subject, this should be taken into account. 
+A: Yes, at the moment, professors do not teach subjects assigned to other faculty members. However, if there is a future need for multiple professors to teach the same subject, this should be taken into account.
+
+# Modelo Entidade Relacionamento (modelo conceitual)
+Entity Relantionship Model
+
+![modelo_conceitual_imagem](https://github.com/user-attachments/assets/3acc05ac-f020-48b9-ba7a-aa8fec8d3c23)
+
+# Diagrama Entidade Relacionamento
+Entity Diagram Model
+
+![modelo_logico_imagem](https://github.com/user-attachments/assets/bf037910-db70-4269-be93-807a7adec1b8)
