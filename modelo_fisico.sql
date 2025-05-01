@@ -62,7 +62,7 @@ create table tbl_cursos(
     unique index(id)
 );
 
-#Tabela referente ao(s) endereço(s) do aluno
+#Tabela referente ao(s) endereço(s) de moradia do aluno
 create table tbl_endereco_aluno(
 	id int not null primary key auto_increment,
     logradouro varchar(45) not null,
@@ -77,7 +77,7 @@ create table tbl_endereco_aluno(
     unique index(id)
 );
 
-#Tabela referente ao(s) endereço(s) do professor
+#Tabela referente ao(s) endereço(s) de moradia do professor
 create table tbl_endereco_professor(
 	id int not null primary key auto_increment,
     logradouro varchar(45) not null,
